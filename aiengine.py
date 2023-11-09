@@ -2,7 +2,6 @@ import json
 import os
 import threading
 
-import openai
 import requests
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline
