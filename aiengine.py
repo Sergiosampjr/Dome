@@ -6,6 +6,7 @@ import requests
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline
 
+
 from dome.auxiliary.DAO import DAO
 from dome.auxiliary.enums.intent import Intent
 from dome.config import (PNL_GENERAL_THRESHOLD, USELESS_EXPRESSIONS_FOR_INTENT_DISCOVERY, TIMEOUT_MSG_PARSER,
